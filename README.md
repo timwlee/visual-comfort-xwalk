@@ -1,4 +1,4 @@
-# Visual Comfort EDS site re-built in XWalk. 
+# Visual Comfort EDS site re-built in crosswalk. 
 
 ## Environments
 - Preview: https://main--visual-comfort-xwalk--timwlee.aem.page/
