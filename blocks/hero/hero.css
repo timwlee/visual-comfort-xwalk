@@ -14,7 +14,7 @@ main .hero-container {
   align-items: center;
 }
 
-.hero > div {
+.hero > div:not(.hero-image) {
   width: 100%;
 }
 

@@ -4,8 +4,12 @@
  */
 
 export default async function decorate(block) {
-  const blockChildren = block.children[0];
-  [...blockChildren.children].forEach((child) => {
+  console.log("block hello world: ", block);
+
+  const blockChildren = block.children;
+  console.log("blockChildren: ", blockChildren);
+  
+  [...blockChildren].forEach((child) => {
     const pictureElement = child.querySelectorAll('picture');
     if (pictureElement.length > 0) {
       pictureElement.forEach((pic, index) => {
