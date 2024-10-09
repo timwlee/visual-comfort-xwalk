@@ -1,5 +1,4 @@
-# Your Project's Title...
-Visual Comfort EDS site re-built in xwalk. 
+# Visual Comfort EDS site re-built in XWalk. 
 
 ## Environments
 - Preview: https://main--visual-comfort-xwalk--timwlee.aem.page/
