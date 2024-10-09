@@ -1,9 +1,9 @@
 # Your Project's Title...
-Your project's description...
+Visual Comfort EDS site re-built in xwalk. 
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--visual-comfort-xwalk--timwlee.aem.page/
+- Live: https://main--visual-comfort-xwalk--timwlee.aem.live/
 
 ## Installation
 
