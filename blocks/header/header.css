@@ -197,6 +197,11 @@ header nav .nav-brand picture img {
   height: auto;
 }
 
+header nav .nav-brand ul li p {
+  display: flex;
+  align-items: center;
+}
+
 @media (width <= 768px) {
   header nav .nav-brand picture img {
     max-width: 200px;
