@@ -39,5 +39,10 @@
       "button",
       "title"
     ]
+  }, {
+    "id": "gallery",
+    "components": [
+      "image"
+    ]
   }
 ]
