@@ -42,7 +42,7 @@
   }, {
     "id": "gallery",
     "components": [
-      "image"
+      "gallery-item"
     ]
   }
 ]
