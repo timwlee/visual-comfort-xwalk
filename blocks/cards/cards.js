@@ -25,7 +25,7 @@ export default function decorate(block) {
         div.className = 'cards-card-body';
         if (!hasNonLinkElements) {
           const a = div.querySelector('a');
-          a.classList.add('single');
+          if (a) a.classList.add('single');
         }
       }
     });
