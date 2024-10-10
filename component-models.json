@@ -115,7 +115,7 @@
     "id": "cards",
     "fields": [
       {
-        "component": "select",
+        "component": "multiselect",
         "name": "classes",
         "value": "",
         "label": "Card variation",
