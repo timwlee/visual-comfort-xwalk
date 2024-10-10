@@ -112,43 +112,6 @@
     ]
   },
   {
-    "id": "cards",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Card classes",
-        "description": "A List of cards classes",
-        "options": [
-          {
-            "name": "Grid 2",
-            "value": "grid-2"
-          },
-          {
-            "name": "Grid 3",
-            "value": "grid-3"
-          },
-          {
-            "name": "Grid 4",
-            "value": "grid-4"
-          },
-          {
-            "name": "Text: Centered",
-            "value": "text-center"
-          },
-          {
-            "name": "Text: Left Aligned",
-            "value": "text-left-align"
-          },
-          {
-            "name": "Text: Right Aligned",
-            "value": "text-right-align"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "card",
     "fields": [
       {
