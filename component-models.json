@@ -135,15 +135,15 @@
             "value": "grid-4"
           },
           {
-            "name": "Centered Text",
+            "name": "Text: Centered",
             "value": "text-center"
           },
           {
-            "name": "Left Aligned Text",
+            "name": "Text: Left Aligned",
             "value": "text-left-align"
           },
           {
-            "name": "Right Aligned Text",
+            "name": "Text: Right Aligned",
             "value": "text-right-align"
           }
         ]
