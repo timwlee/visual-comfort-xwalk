@@ -117,10 +117,8 @@
       {
         "component": "multiselect",
         "name": "classes",
-        "value": "",
-        "label": "Card variation",
-        "description": "The type of card variation",
-        "valueType": "string",
+        "label": "Card classes",
+        "description": "A List of cards classes",
         "options": [
           {
             "name": "Grid 2",
