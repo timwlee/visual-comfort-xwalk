@@ -1,4 +1,5 @@
 export default function decorate(block) {
+  const hasButtonPrimary = block.classList.contains('button-primary');
   const cols = [...block.firstElementChild.children];
   block.classList.add(`columns-${cols.length}-cols`);
 
@@ -15,4 +16,9 @@ export default function decorate(block) {
       }
     });
   });
+
+  if (hasButtonPrimary) {
+    const a = block.querySelector('a');
+    a.classList.add('button-primary');
+  }
 }
