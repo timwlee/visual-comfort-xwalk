@@ -58,13 +58,6 @@
       "components": [
         "card"
       ]
-    },
-    {
-      "id": "card",
-      "components": [
-        "text",
-        "image"
-      ]
     }
   ]
 }
