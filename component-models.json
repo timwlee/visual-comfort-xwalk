@@ -106,6 +106,14 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Top Border",
+            "value": "top-border"
+          },
+          {
+            "name": "Bottom Border",
+            "value": "bottom-border"
           }
         ]
       }
