@@ -33,10 +33,18 @@ export default function decorate(block) {
   }
 
   async function initialize() {
-    const response = await fetch(link?.href);
+    const response = await fetch(link?.href, {
+        headers: {
+          'Content-Type': 'text/html',
+        },
+        method: 'get',
+        credentials: 'include',
+      },
+    );
 
     if (response.ok) {
       const jsonData = await response.json();
+      console.log("jsonData: ", jsonData);
       data = jsonData?.data;
       modifyHTML();
     }
