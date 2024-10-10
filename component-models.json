@@ -191,6 +191,18 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      },
+      {
+        "component": "multiselect",
+        "name": "columns classes",
+        "label": "columns classes",
+        "description": "A List of columns classes",
+        "options": [
+          {
+            "name": "Button Primary",
+            "value": "button-primary"
+          }
+        ]
       }
     ]
   },
