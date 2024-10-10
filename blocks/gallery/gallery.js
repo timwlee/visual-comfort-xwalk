@@ -1,8 +1,7 @@
 export default function decorate(block) {
-  const container = block.firstElementChild;
-  container.classList.add('gallery-container');
+  const galleryItems = [...block.children];
 
-  [...container.children].forEach((child) => {
+  galleryItems.forEach((child) => {
     child.classList.add('gallery-item');
   });
 }
