@@ -112,6 +112,45 @@
     ]
   },
   {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Card variation",
+        "description": "The type of card variation",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Grid 2",
+            "value": "grid-2"
+          },
+          {
+            "name": "Grid 3",
+            "value": "grid-3"
+          },
+          {
+            "name": "Grid 4",
+            "value": "grid-4"
+          },
+          {
+            "name": "Centered Text",
+            "value": "text-center"
+          },
+          {
+            "name": "Left Aligned Text",
+            "value": "text-left-align"
+          },
+          {
+            "name": "Right Aligned Text",
+            "value": "text-right-align"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
