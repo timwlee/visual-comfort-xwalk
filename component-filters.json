@@ -39,7 +39,8 @@
       "button",
       "title"
     ]
-  }, {
+  }, 
+  {
     "id": "gallery",
     "components": [
       "gallery-item"
