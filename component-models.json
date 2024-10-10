@@ -146,7 +146,8 @@
             "name": "Right Aligned Text",
             "value": "text-right-align"
           }
-        ]
+        ],
+        "multi": true
       }
     ]
   },
