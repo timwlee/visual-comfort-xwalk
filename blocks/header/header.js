@@ -141,6 +141,15 @@ export default async function decorate(block) {
     });
   }
 
+  // add event listener to close expanded nav sections
+  window.addEventListener('scroll', () => {
+    const expandedSections = Array.from(navSections.querySelectorAll('.default-content-wrapper > ul > li'))
+                                  .filter(section => section.getAttribute('aria-expanded') === 'true');
+    if (expandedSections.length > 0) {
+      expandedSections.forEach(section => section.setAttribute('aria-expanded', 'false'));
+    }
+  });
+
   // hamburger for mobile
   const hamburger = document.createElement('div');
   hamburger.classList.add('nav-hamburger');
