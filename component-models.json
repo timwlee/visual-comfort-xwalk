@@ -211,11 +211,9 @@
         ]
       },
       {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "component": "aem-content",
+        "name": "reference",
+        "label": "Reference"
       }
     ]
   },
