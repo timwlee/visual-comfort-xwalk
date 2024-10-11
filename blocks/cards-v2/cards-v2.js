@@ -40,7 +40,6 @@ export default function decorate(block) {
       },
       method: 'get',
       credentials: 'include',
-      mode: 'no-cors'  // This allows cross-origin requests
     });
 
     if (response.ok) {
