@@ -3,7 +3,7 @@
     "/content/visual-comfort-xwalk/:/",
     "/content/visual-comfort-xwalk/configuration:/.helix/config.json",
     "/content/visual-comfort-xwalk/metadata:/metadata.json",
-    "/content/visual-comfort-xwalk/.helix:/headers.json",
+    "/content/visual-comfort-xwalk/.helix:/headers:/headers.json",
     "/content/visual-comfort-xwalk/spreadsheet:/spreadsheet.json",
     "/content/visual-comfort-xwalk/spreadsheet0:/spreadsheet0.json",
     "/content/visual-comfort-xwalk/spreadsheet1:/spreadsheet1.json",
