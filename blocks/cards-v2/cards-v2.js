@@ -10,19 +10,19 @@ export default function decorate(block) {
     const ul = document.createElement('ul');
 
     data.forEach((item) => {
-      const picture = createOptimizedPicture(item.image, item.title, false, [{ width: 800 }]);
+      const picture = createOptimizedPicture(item.Image, item.Title, false, [{ width: 800 }]);
       picture.lastElementChild.width = '800';
       picture.lastElementChild.height = '800';
       const createdCard = document.createElement('li');
       createdCard.innerHTML = `
-        <a href="${item.url}" class="cards-card-image" aria-label="${item['anchor-text']}">
+        <a href="${item.URL}" class="cards-card-image" aria-label="${item['Anchor-Text']}">
           <div data-align="center">${picture.outerHTML}</div>
         </a>
         <div class="cards-card-body">
-          <h5>${item.title}</h5>
-          <p>${item.description}</p>
+          <h5>${item.Title}</h5>
+          <p>${item.Description}</p>
           <p class="button-container">
-            <a href="${item.url}" aria-label="${item['anchor-text']}" title="${item['anchor-text']}" class="button">${item['anchor-text']}</a>
+            <a href="${item.URL}" aria-label="${item['Anchor-Text']}" title="${item['Anchor-Text']}" class="button">${item['Anchor-Text']}</a>
           </p>
         </div>
       `;
