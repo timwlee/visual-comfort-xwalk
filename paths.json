@@ -7,8 +7,6 @@
     "/content/visual-comfort-xwalk/spreadsheet0:/spreadsheet0.json",
     "/content/visual-comfort-xwalk/spreadsheet1:/spreadsheet1.json",
     "/content/visual-comfort-xwalk/spreadsheet2:/spreadsheet2.json",
-  ],
-  "includes": [
-    "/content/dam/visual-comfort-xwalk/images/"
+    "/content/dam/visual-comfort-xwalk/images/:/images/"
   ]
 }
