@@ -34,7 +34,6 @@ export default function decorate(block) {
 
   async function initialize() {
     const url = `https://author-p142507-e1463170.adobeaemcloud.com${link.title}.json`
-    console.log("url: ", url);
     const response = await fetch(url, {
       headers: {
         'Content-Type': 'text/html',
@@ -44,11 +43,8 @@ export default function decorate(block) {
       mode: 'no-cors'  // This allows cross-origin requests
     });
 
-    console.log("response: ", response)
-
     if (response.ok) {
       const jsonData = await response.json();
-      console.log("jsonData: ", jsonData);
       data = jsonData?.data;
       modifyHTML();
     }
